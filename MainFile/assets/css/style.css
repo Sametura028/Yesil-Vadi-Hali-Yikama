@@ -2231,7 +2231,6 @@ TABLE OF CONTENTS:
 .btn {
   font-size: 15px;
   font-weight: 700;
-  color: #fff;
   padding: 0 20px;
   line-height: 48px;
   -webkit-transition: all 240ms linear 0ms;
@@ -2252,7 +2251,7 @@ TABLE OF CONTENTS:
   text-align: center;
   cursor: pointer;
   border: none;
-  background-color: #0431b8;
+
   z-index: 1;
   -webkit-box-shadow: none !important;
   -khtml-box-shadow: none !important;
@@ -2265,8 +2264,18 @@ TABLE OF CONTENTS:
 .btn:hover {
   outline: medium none;
   text-decoration: none;
+
+
+}
+
+.contactbtn {
   color: #fff;
-  background-color: #007cfb;
+  background-color: #024e06;
+  text-align: center !important;
+}
+
+.contactbtn:hover {
+  background-color: #00ff0d;
 }
 
 .btn:hover:after {
@@ -2353,6 +2362,21 @@ TABLE OF CONTENTS:
   justify-content: center;
   margin: 0;
   overflow: hidden;
+}
+
+#slider-3-slide-7-layer-2 {
+  font-size: 3.4rem !important;
+  background-color: rgba(0, 255 0, );
+}
+
+.green-overlay {
+  background-color: #07930fad;
+  position: absolute;
+  z-index:2;
+}
+
+.overlayimg {
+  filter: grayscale(100%) brightness(80%) sepia(300%) hue-rotate(50deg) saturate(500%);
 }
 
 .btn.btn-plus .icon-abs i,
@@ -2887,7 +2911,7 @@ TABLE OF CONTENTS:
   -ms-border-radius: 0px !important;
   -o-border-radius: 0px !important;
   border-radius: 0px !important;
-  background-color: #fff !important;
+    background-color: #024e06!important;
   -webkit-transition: all 300ms linear 0ms;
   -khtml-transition: all 300ms linear 0ms;
   -moz-transition: all 300ms linear 0ms;
@@ -2900,7 +2924,10 @@ TABLE OF CONTENTS:
 .revslider-initialised .tp-leftarrow.custom:before,
 .revslider-initialised .tp-rightarrow.custom:before {
   font-size: 19px !important;
-  color: #082680 !important;
+  color: #ffffff !important;
+
+ 
+  text-align: center !important;
   font-family: "Flaticon" !important;
   position: absolute !important;
   top: 50% !important;
@@ -2916,12 +2943,13 @@ TABLE OF CONTENTS:
 
 .revslider-initialised .tp-leftarrow.custom:hover,
 .revslider-initialised .tp-rightarrow.custom:hover {
-  background-color: #082680 !important;
+  background-color: #00ff0d !important;
+  color: #000 !important;
 }
 
 .revslider-initialised .tp-leftarrow.custom:hover:before,
 .revslider-initialised .tp-rightarrow.custom:hover:before {
-  color: #fff !important;
+  color: #000 !important;
 }
 
 @media screen and (max-width: 1400px) {
@@ -4422,32 +4450,32 @@ body {
 }
 
 h1 {
-  color: #082680;
+  color:#024e06;
   font-size: 70px;
 }
 
 h2 {
-  color: #082680;
+color:#024e06;
   font-size: 48px;
 }
 
 h3 {
-  color: #082680;
+color:#024e06;
   font-size: 36px;
 }
 
 h4 {
-  color: #082680;
+ color:#024e06;
   font-size: 25px;
 }
 
 h5 {
-  color: #082680;
+ color:#024e06;
   font-size: 22px;
 }
 
 h6 {
-  color: #082680;
+color:#024e06;
   font-size: 18px;
   margin-bottom: 0;
 }
@@ -5299,7 +5327,7 @@ i {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  background-color: #0431b8;
+  background-color: #024e06;
   width: calc(100% + 30px);
   height: calc(100% + 20px);
   border-radius: 50%;
@@ -5323,7 +5351,7 @@ i {
 
 .bixol-about-section .bixol-about-left .bixol-slider-wrapper .bixol-slider-content {
   position: absolute;
-  background-color: #0431b8;
+  background-color: #024e06;
   color: #ffffff;
   top: -85px;
   right: 0;
@@ -5355,7 +5383,7 @@ i {
   height: 0;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-top: 15px solid #0431b8;
+  border-top: 15px solid #024e06;
   -webkit-transform: skew(-30deg);
   -ms-transform: skew(-30deg);
   transform: skew(-30deg);
@@ -11541,7 +11569,7 @@ i {
   height: 90px;
   border-radius: 50%;
   display: inline-block;
-  border: 2px dashed #0431b8;
+  border: 2px dashed #024e06;
   overflow: hidden;
   padding: 15px;
 }
@@ -11555,7 +11583,7 @@ i {
   content: '';
   width: 50px;
   height: 3px;
-  background-color: #22d3ee;
+  background-color: #07930f;
   position: absolute;
   bottom: -15px;
   left: 50%;
@@ -11592,7 +11620,7 @@ i {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(6, 31, 104, 0.89);
+  background-color:#07930fdb;
   top: 0;
   left: 0;
   z-index: -1;
@@ -11600,8 +11628,8 @@ i {
 }
 
 .home2-service-section .home2-service-slider .service-single-item .srv2-hover-item .img-wrapper {
-  background-color: #22d3ee;
-  border: 2px solid #22d3ee;
+  background-color: #024e06cc;
+  border: 2px solid #024e06cc;
 }
 
 .home2-service-section .home2-service-slider .service-single-item .srv2-hover-item .srv2-service-content h5 {
@@ -11611,7 +11639,7 @@ i {
 .home2-service-section .home2-service-slider .service-single-item .srv2-hover-item .srv2-service-content p {
   color: #ffffff;
 }
-
+  
 .home2-service-section .home2-service-slider .service-single-item .srv2-hover-item .srv2-service-content a.srv2-readmore-btn {
   margin-top: 20px;
   display: inline-block;
