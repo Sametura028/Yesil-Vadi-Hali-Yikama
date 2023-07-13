@@ -41,6 +41,7 @@ Last change:    00/00/00
 					$("#ct-loadding").fadeOut();
 				});
 			},
+			
 
 			BackgroundImage: function (){
 				$('[data-background]').each(function() {
@@ -684,3 +685,17 @@ Last change:    00/00/00
 	});
 
 })();
+
+document.onreadystatechange = function () {
+  if (document.readyState !== "complete") {
+    // document.querySelector(
+    //   "body").style.visibility = "hidden";
+    document.querySelector(
+      "#ct-loadding").style.visibility = "visible";
+  } else {
+  document.querySelector(
+      "#ct-loadding").style.visibility = "hidden";
+    document.querySelector(
+      "body").style.visibility = "visible";
+  }
+};
