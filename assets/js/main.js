@@ -59,12 +59,7 @@ Last change:    00/00/00
 					}
 				});
 
-				$(".scrolltop-btn").on("click", function(e){
-					e.preventDefault();
-					$("body,html").animate({
-						scrollTop: 0, 
-					}, 'easeInOutExpo');
-				});
+				
 			},
 
             Animation: function (){
